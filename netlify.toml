@@ -1,0 +1,4 @@
+[[redirects]]
+    from = "s/*"
+    to = "slides/:splat"
+    status = 200
