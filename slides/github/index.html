@@ -4,12 +4,22 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - Markdown Example</title>
+		<title>reveal.js – The HTML Presentation Framework</title>
 
-		<link rel="stylesheet" href="../dist/reveal.css">
-		<link rel="stylesheet" href="../dist/theme/white.css" id="theme">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
-        <link rel="stylesheet" href="../plugin/highlight/monokai.css">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/materialdark.css" id="highlight-theme">
 	</head>
 
 	<body>
@@ -19,7 +29,7 @@
 			<div class="slides">
 
                 <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-                <section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                <section data-markdown="https://raw.githubusercontent.com/kevinuulong/reveal.js/master/slides/github/markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 
                 <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
                 <section data-markdown data-separator="---">
@@ -32,6 +42,12 @@
                         ---
                         ## Demo 1
                         Slide 3
+                    </script>
+                </section>
+
+				<section data-markdown data-separator="---">
+                    <script type="text/template">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </script>
                 </section>
 
