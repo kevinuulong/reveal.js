@@ -1,36 +1,58 @@
-# Markdown Demo
+# Git and GitHub
+---
+Elder INTERalliance
 
+=====
 
+<!-- .slide: data-background="http://placekitten.com/1920/1080" -->
+# Git vs GitHub
 
-## External 1.1
+====
 
-Content 1.1
+## Git
 
-Note: This will only appear in the speaker notes window.
+- A version control software
+- Allows multiple people to work on the same project simultaneously
+- Kind of like Google Docs for code
 
+====
 
-## External 1.2
+## GitHub
 
-Content 1.2
+- A web interface for Git
+- A place to host Git projects
+- Adds some additional features on top of Git
 
+=====
 
+## Why should I care?
 
-## External 2
+- Makes code collaboration easy <!-- .element: class="fragment" data-fragment-index="1" -->
+- Makes managing code conflicts easy <!-- .element: class="fragment" data-fragment-index="2" -->
 
-Content 2.1
+====
+## GitHub Stats
 
+56+ million
+Developers
 
+3+ million
+Organizations
 
-## External 3.1
+100+ million
+Repositories
 
-Content 3.1
+72%
+Fortune 50
 
+=====
 
-## External 3.2
+## A quick intro
 
-Content 3.2
+====
 
+<!-- .slide: data-background-iframe="https://www.youtube-nocookie.com/embed/w3jLJU7DT5E?controls=0&autoplay=1" -->
 
-## External 3.3
+=====
 
-![External Image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
+<a href="https://github.com/join" target="_blank">github.com/join</a>
