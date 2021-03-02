@@ -2,3 +2,7 @@
     from = "s/*"
     to = "slides/:splat/"
     status = 200
+    
+[[redirects]]
+    from = "s/*#"
+    to = "s/:splat/#"
