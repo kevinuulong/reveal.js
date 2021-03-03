@@ -1,4 +1,4 @@
-# Git and GitHub
+## Git and GitHub
 ---
 Elder INTERalliance
 
@@ -51,8 +51,70 @@ Fortune 50
 
 ====
 
-<!-- .slide: data-background-iframe="https://www.youtube-nocookie.com/embed/w3jLJU7DT5E?controls=0&autoplay=1" -->
+<!-- .slide: data-background-iframe="https://www.youtube-nocookie.com/embed/w3jLJU7DT5E?autoplay=1&cc_load_policy=3" -->
 
 =====
 
-<a href="https://github.com/join" target="_blank">github.com/join</a>
+## Join GitHub
+<br/>
+
+<span style="background: #212121; padding: 20px;">
+    <a href="https://github.com/join" target="_blank">github.com/join</a>
+</span>
+
+====
+
+![Join Github](images/01.png)
+
+=====
+
+### Create our first repository!
+
+![New Repo](images/02.png)
+
+====
+
+### Fill out the detials
+
+Make sure to check the box to Add a README file
+![Repo Details](images/03.png)
+
+=====
+
+### Commits
+
+- A reference to a point in history <!-- .element: class="fragment" data-fragment-index="1" -->
+- Similar to saving a file <!-- .element: class="fragment" data-fragment-index="2" -->
+
+=====
+
+### Let's make a new commit!
+
+====
+Click the pencil icon to the right of README.md
+![Project Page](images/04.png)
+
+====
+It should now look like this:
+![Editing README](images/05.png)
+
+====
+Change your second line
+![Change README](images/06.png)
+
+====
+Scroll to the bottom of the page and give your commit a message
+![First Commit](images/07.png)
+
+====
+Click commit
+![First Commit](images/07.png)
+
+=====
+
+### Congrats that's your first commit! 🎉
+
+====
+
+You should now see your name in your README
+![Completed Commit](images/08.png)

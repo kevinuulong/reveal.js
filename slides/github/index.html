@@ -22,12 +22,13 @@
     <link rel="stylesheet" href="../../plugin/highlight/materialdark.css" id="highlight-theme">
     
     <script src="../../js/urlFixer.js"></script>
+    <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
     <script>
         window.onhashchange = () => {
             fixUrl();
         }
     </script>
-    
+
 </head>
 
 <body>
@@ -137,6 +138,7 @@
     <script src="../../plugin/markdown/markdown.js"></script>
     <script src="../../plugin/highlight/highlight.js"></script>
     <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/zoom/zoom.js"></script>
 
     <script>
 
@@ -146,7 +148,7 @@
             history: true,
             center: true,
 
-            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom]
         });
 
     </script>
