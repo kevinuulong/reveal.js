@@ -1,39 +1,47 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
 
-		<title>Git & GitHub</title>
+    <title>Git & GitHub</title>
 
-		<meta name="description" content="An intro to Git and GitHub">
-		<meta name="author" content="Elder INTERalliance">
+    <meta name="description" content="An intro to Git and GitHub">
+    <meta name="author" content="Elder INTERalliance">
 
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="../../dist/reset.css">
-		<link rel="stylesheet" href="../../dist/reveal.css">
-		<link rel="stylesheet" href="../../dist/theme/nightTweaks.css" id="theme">
+    <link rel="stylesheet" href="../../dist/reset.css">
+    <link rel="stylesheet" href="../../dist/reveal.css">
+    <link rel="stylesheet" href="../../dist/theme/nightTweaks.css" id="theme">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../plugin/highlight/materialdark.css" id="highlight-theme">
-	</head>
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../../plugin/highlight/materialdark.css" id="highlight-theme">
+    
+    <script src="../../js/urlFixer.js"></script>
+    <script>
+        window.onhashchange = () => {
+            fixUrl();
+        }
+    </script>
+    
+</head>
 
-	<body>
+<body>
 
-		<div class="reveal">
+    <div class="reveal">
 
-			<div class="slides">
+        <div class="slides">
 
-                <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-                <section data-markdown="markdown.md" data-separator="=====" data-separator-vertical="===="></section>
+            <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+            <section data-markdown="markdown.md" data-separator="=====" data-separator-vertical="===="></section>
 
-                <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
-                <section data-markdown data-separator="---">
-                    <script type="text/template">
+            <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
+            <section data-markdown data-separator="---">
+                <script type="text/template">
                         ## Demo 1
                         Slide 1
                         ---
@@ -43,17 +51,17 @@
                         ## Demo 1
                         Slide 3
                     </script>
-                </section>
+            </section>
 
-				<section data-markdown data-separator="---">
-                    <script type="text/template">
+            <section data-markdown data-separator="---">
+                <script type="text/template">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w3jLJU7DT5E?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </script>
-                </section>
+            </section>
 
-                <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
-                <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-                    <script type="text/template">
+            <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
+            <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+                <script type="text/template">
                         ## Demo 2
                         Slide 1.1
 
@@ -67,11 +75,11 @@
                         ## Demo 2
                         Slide 2
                     </script>
-                </section>
+            </section>
 
-                <!-- No "extra" slides, since there are no separators defined (so they'll become horizontal rulers) -->
-                <section data-markdown>
-                    <script type="text/template">
+            <!-- No "extra" slides, since there are no separators defined (so they'll become horizontal rulers) -->
+            <section data-markdown>
+                <script type="text/template">
                         A
 
                         ---
@@ -82,28 +90,28 @@
 
                         C
                     </script>
-                </section>
+            </section>
 
-                <!-- Slide attributes -->
-                <section data-markdown>
-                    <script type="text/template">
+            <!-- Slide attributes -->
+            <section data-markdown>
+                <script type="text/template">
                         <!-- .slide: data-background="#000000" -->
                         ## Slide attributes
                     </script>
-                </section>
+            </section>
 
-                <!-- Element attributes -->
-                <section data-markdown>
-                    <script type="text/template">
+            <!-- Element attributes -->
+            <section data-markdown>
+                <script type="text/template">
                         ## Element attributes
                         - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
                         - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
                     </script>
-                </section>
+            </section>
 
-                <!-- Code -->
-                <section data-markdown>
-                    <script type="text/template">
+            <!-- Code -->
+            <section data-markdown>
+                <script type="text/template">
                         ```php [1|3-5]
                         public function foo()
                         {
@@ -113,36 +121,36 @@
                         }
                         ```
                     </script>
-                </section>
+            </section>
 
-                <!-- Images -->
-                <section data-markdown>
-                    <script type="text/template">
+            <!-- Images -->
+            <section data-markdown>
+                <script type="text/template">
                         ![Sample image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
                     </script>
-                </section>
+            </section>
 
-            </div>
-		</div>
+        </div>
+    </div>
 
-		<script src="../../dist/reveal.js"></script>
-        <script src="../../plugin/markdown/markdown.js"></script>
-        <script src="../../plugin/highlight/highlight.js"></script>
-        <script src="../../plugin/notes/notes.js"></script>
-        <script src="../../js/urlFixer.js"></script>
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
 
-		<script>
+    <script>
 
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
 
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
 
-		</script>
+    </script>
 
-	</body>
+</body>
+
 </html>
