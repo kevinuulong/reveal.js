@@ -118,3 +118,155 @@ Click commit
 
 You should now see your name in your README
 ![Completed Commit](images/08.png)
+
+
+=====
+
+### Review
+
+====
+
+### What is a commit?
+
+1. A promise. 🔗
+2. A reference to a point in history. 👆
+3. A request to combine branches of code. 👩‍💻
+4. A shooting star. 🌟
+
+=====
+
+## On to the next project!
+
+=====
+
+### Forks 🍴
+
+- A personal copy of another user's repository <!-- .element: class="fragment" data-fragment-index="1" -->
+- Allows you to directly edit <!-- .element: class="fragment" data-fragment-index="2" -->
+- Not part of Git, but instead GitHub <!-- .element: class="fragment" data-fragment-index="3" -->
+
+=====
+## Slack Bio Bot
+<br/>
+
+<span style="background: #212121; padding: 20px;">
+    <a href="https://git.io/Jqedr" target="_blank">git.io/Jqedr</a>
+</span>
+
+====
+
+### It should look like this:
+![Bio Bot](images/09.png)
+
+=====
+
+### Create a fork
+Look in the top right corner.
+![Bio Bot](images/09.png)
+
+====
+
+### It should look like this:
+Note your username now shows up in the top left
+![Bio Bot Fork](images/10.png)
+
+=====
+
+You will be adding your bio to the Slack Bio Bot
+![Example Bio](images/11.png)
+
+====
+
+## You can customize this template:
+<br/>
+
+<span style="background: #212121; padding: 20px;">
+    <a href="https://link.kevinuulong.com/JwZnt" target="_blank">link.kevinuulong.com/JwZnt</a>
+</span>
+
+====
+
+### You may need to sign in
+![Sign in to Slack](images/12.png)
+
+====
+
+### Once you are signed in you should see something like this:
+![Slack Block Kit Builder](images/13.png)
+
+====
+
+### You can edit the text in the "Payload" panel on the right
+![Slack Block Kit Builder](images/13.png)
+
+====
+
+### Customize with your own information
+
+```json [7|10-12|28-31|47-56|55]
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "About You"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "Image URL",
+				"alt_text": "Image Description"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Some of his interests include:*"
+			}
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": ":swimmer: Swimming"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Check out his personal profiles:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": ":github: GitHub",
+						"emoji": true
+					},
+					"url": "https://github.com/kevinuulong",
+					"action_id": "actionId-00"
+				}
+			]
+		}
+	]
+}
+```
+
+====
+
+Once you have filled it out click "Copy Payload" from the top
+![Copy Payload](images/14.png)
