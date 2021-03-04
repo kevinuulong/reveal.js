@@ -301,7 +301,7 @@ Once you have filled it out click `Copy Payload` from the top ✂️
 ====
 
 ### Create a new file
-Add file > Create a new file
+Add file > Create new file
 ![Create New File](images/16.png)
 
 ====
