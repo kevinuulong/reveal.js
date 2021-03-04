@@ -3,8 +3,6 @@
 Elder INTERalliance
 
 =====
-
-<!-- .slide: data-background="http://placekitten.com/1920/1080" -->
 # Git vs GitHub
 
 ====
@@ -55,6 +53,26 @@ Fortune 50
 
 =====
 
+### Let's Review 
+
+====
+
+### What is GitHub?
+1. Moisture data sharing. 💧 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+2. A tool for farmers. 👩‍🌾 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+3. Tractor cloning software. 🐑🐑 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+4. A collaborative platform for building software. 🔨
+
+====
+
+### What is Git?
+1. Version control software. 🎮
+2. A search engine. 🔍 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+3. A social network for farmers. 🕸 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+4. A programming language. 🐱‍💻 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+
+=====
+
 ## Join GitHub
 <br/>
 
@@ -68,7 +86,7 @@ Fortune 50
 
 =====
 
-### Create our first repository!
+### Create your first repository!
 
 ![New Repo](images/02.png)
 
@@ -112,7 +130,7 @@ Click commit
 
 =====
 
-### Congrats that's your first commit! 🎉
+### Congrats, that's your first commit! 🎉
 
 ====
 
@@ -122,16 +140,16 @@ You should now see your name in your README
 
 =====
 
-### Review
+### Let's Review
 
 ====
 
 ### What is a commit?
 
-1. A promise. 🔗
+1. A promise. 🔗 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
 2. A reference to a point in history. 👆
-3. A request to combine branches of code. 👩‍💻
-4. A shooting star. 🌟
+3. A request to combine branches of code. 👩‍💻 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+4. A shooting star. 🌟 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
 
 =====
 
@@ -196,7 +214,7 @@ You will be adding your bio to the Slack Bio Bot
 
 ====
 
-### You can edit the text in the "Payload" panel on the right
+### You can edit the text in the `Payload` panel on the right
 ![Slack Block Kit Builder](images/13.png)
 
 ====
@@ -268,5 +286,167 @@ You will be adding your bio to the Slack Bio Bot
 
 ====
 
-Once you have filled it out click "Copy Payload" from the top
+Once you have filled it out click `Copy Payload` from the top ✂️
 ![Copy Payload](images/14.png)
+
+=====
+
+## Back to GitHub 🔙
+
+====
+
+### Click on the `bios` directory
+![Back at GitHub](images/15.png)
+
+====
+
+### Create a new file
+Add file > Create a new file
+![Create New File](images/16.png)
+
+====
+
+### Name your file
+Use your name without spaces
+
+⚠️ Make sure that it ends in `.json`
+![Name your File](images/17.png)
+
+====
+
+### Paste your bio 📋
+If it isn't on your clipboard go back and copy it from Slack again
+![Paste your Payload](images/18.png)
+
+====
+
+### Scroll down and commit
+🔔 Don't forget a commit message!
+![Commit your Changes](images/19.png)
+
+====
+
+### You should now see your new commit
+![After Commit](images/20.png)
+
+=====
+
+## Some new terms!
+
+====
+
+### Merging 
+
+- Applies changes from one branch or fork into another <!-- .element: class="fragment" data-fragment-index="1" -->
+- Combines the commit history from the two into one <!-- .element: class="fragment" data-fragment-index="2" -->
+
+====
+
+### Pull Request
+
+- A request to merge two branches or forks <!-- .element: class="fragment" data-fragment-index="1" -->
+- Allows others to review your changes before going live <!-- .element: class="fragment" data-fragment-index="2" -->
+
+=====
+
+## Back to GitHub 🔙
+
+====
+
+### Creating a Pull Request
+Click on Pull Request (on the right)
+![Create a Pull Request](images/20.png)
+
+====
+
+### Click on Create pull request
+This screen allows you to choose the branches and repositories to merge
+![Create a Pull Request](images/21.png)
+
+====
+
+### Provide a Title and Description
+The description should tell a reviewer anything they would need to know about your proposed changes
+![Describe Pull Request](images/22.png)
+
+====
+
+### Scroll down and Click Create pull request
+📝You can also see the changes you are proposing
+![Create Pull Request](images/23.png)
+
+=====
+
+### Congrats, that's your first pull request! 🥳
+
+====
+
+### Your pull request is now open for review!
+![Pull Request Open for Review](images/24.png)
+
+====
+
+### If your pull request passes review it can then be merged
+📝In this example this happens automatically; however, usually a mainainer will have to manually merge it
+![Merged Pull Request](images/25.png)
+
+=====
+
+### Let's Review 
+
+====
+
+### What is a fork?
+1. A request to combine two branches. 🌿 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+2. An utensil. 🍴 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+3. A personal copy of a repository. ✂️
+4. A combination of commit history. 🧔 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+
+====
+
+### What is merging?
+1. Combining changes from two separate branches into one. 1️⃣
+2. A method of organizing your code. 🧹 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+3. What cars do when getting on the highway. 🚗 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+4. None of the above. ❌ <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+
+====
+
+### What is a pull request?
+1. A request for a copy of the code. 👩‍💻 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+2. A request to combine two branches. 🌿
+3. A reference to a point in history. 👆 <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+4. A request to poll contributers. ✅ <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+
+=====
+
+### Time to Test!
+
+====
+
+### Open Slack
+Try typing `/bio Your Name`
+![Slack Command](images/26.png)
+
+====
+
+### Did it work?
+If not, have someone else take a look at your commit.
+
+![Bio in Slack](images/27.png)
+
+=====
+
+<!-- .slide: data-background="https://media.giphy.com/media/xUPOqo6E1XvWXwlCyQ/giphy.gif" data-background-opacity="0.3"-->
+### That's the Git and GitHub basics!
+
+=====
+
+### Extra Time? ⌚
+Try a challenge!
+
+====
+
+1. Try opening an issue to ask for your pet to be added. (Make sure to include any details needed, bio, picture, etc.) 🐕
+2. If you see an open issue, try resolving it! 🛠️
+3. Check out <a href="https://learngitbranching.js.org/" target="_blank">learngitbranching.js.org</a> to learn how to use Git from the Command Line 🐱‍💻
