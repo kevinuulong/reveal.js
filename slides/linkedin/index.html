@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>LinkedIn</title>
+
+    <meta name="description" content="LinkedIn">
+    <meta name="author" content="Kevin Long">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../dist/reset.css">
+    <link rel="stylesheet" href="../../dist/reveal.css">
+    <link rel="stylesheet" href="../../dist/theme/nightTweaks.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../../plugin/highlight/materialdark.css" id="highlight-theme">
+    
+    <script src="../../js/urlFixer.js"></script>
+    <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
+    <script>
+        window.onhashchange = () => {
+            fixUrl();
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <div class="slides">
+
+            <!-- Use external markdown resource, separate slides by five =; vertical slides by four = -->
+            <section data-markdown="markdown.md" data-separator="=====" data-separator-vertical="===="></section>
+
+        </div>
+    </div>
+
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/zoom/zoom.js"></script>
+
+    <script>
+
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom]
+        });
+
+    </script>
+
+</body>
+
+</html>
