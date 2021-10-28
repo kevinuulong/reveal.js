@@ -1,5 +1,5 @@
-## No peeking!
+<!-- ## Hypnopedia
+Presence in Pop Culture -->
+<!-- .slide: data-background-video="./videos/hypnopedia.mp4" data-background-video-loop="loop" data-background-opacity="1.0" -->
 
-<!-- .slide: data-background="https://media.giphy.com/media/dxbDsOKgq5IlcjzTC7/giphy-downsized-large.gif" data-background-opacity="0.5"-->
-
-This slideshow will become available on the day of the presentation!
+=====
